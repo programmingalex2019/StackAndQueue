@@ -19,12 +19,12 @@ class Stack<T> {
 
     T pop(){
       if(!isEmpty()) return _data[--_top];
-      return null;
+      else return null;
     }
 
     T top() {
       if(!isEmpty()) return _data[_top-1];   
-      return null;
+      else return null;
     }
 
     void printStack(){
